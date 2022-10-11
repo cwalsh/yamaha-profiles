@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Yamaha Profiles",
+  "description": "Button to change settings on a networked yamaha receiver eg RX-V675",
+  "version": "0.0.1",
+  "host_permissions": ["http://192.168.1.110/*"],
+  "action": {
+    "default_popup": "settings.html",
+    "default_icon": "yamaha_icon.png"
+  }
+}
